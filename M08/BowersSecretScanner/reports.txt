@@ -1,0 +1,12 @@
+
+=== HARD CODED SECRETS SCAN REPORT ===
+Target: samples
+Findings: 7
+-----------------------------------------------------------------
+File: samples\app.py | Line: 2 | Type: API Key | Match: DE**************89
+File: samples\app.py | Line: 3 | Type: Password | Match: Fa***********23
+File: samples\app.py | Line: 4 | Type: Access Token | Match: DE***************45
+File: samples\config.env | Line: 2 | Type: API Key | Match: DE**************89
+File: samples\config.env | Line: 3 | Type: Password | Match: Fa*****************23
+File: samples\config.env | Line: 4 | Type: Access Token | Match: DE*******************45
+File: samples\nested\database.py | Line: 4 | Type: Private Key | Match: --***************************--
